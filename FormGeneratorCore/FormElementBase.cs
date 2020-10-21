@@ -66,7 +66,6 @@ namespace FormGenerator.Core
 
         protected override void OnInitialized()
         {
-
         }
 
         [Parameter]

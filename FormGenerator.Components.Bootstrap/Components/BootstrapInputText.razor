@@ -8,5 +8,7 @@
 <InputText Value="@Value"
            ValueChanged="@ValueChanged"
            ValueExpression="@ValueExpression"
-           class="@ValidationHelper.FixClassNames(CssClass)">
+           class="@ValidationHelper.FixClassNames(CssClass)"
+           id="@FieldIdentifier.FieldName"
+           @attributes="@AdditionalAttributes">
 </InputText>

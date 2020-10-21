@@ -6,8 +6,6 @@
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
     
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Watch' " />
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Build" Version="3.2.1" PrivateAssets="all" />
@@ -20,15 +18,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\FormGenerator.Components.Bootstrap\FormGenerator.Components.Bootstrap.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\FormGenerator.Components.Plain\FormGenerator.Components.Plain.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Enums\" />
   </ItemGroup>
 </Project>

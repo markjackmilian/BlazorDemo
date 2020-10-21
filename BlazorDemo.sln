@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator.Components.Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator.Components.Bootstrap", "FormGenerator.Components.Bootstrap\FormGenerator.Components.Bootstrap.csproj", "{CBC303ED-CF13-4385-AA1A-41661ED026FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemoServer", "BlazorDemoServer\BlazorDemoServer.csproj", "{8F17E92B-90ED-4BD5-9E15-E09512BD4D01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F17E92B-90ED-4BD5-9E15-E09512BD4D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F17E92B-90ED-4BD5-9E15-E09512BD4D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F17E92B-90ED-4BD5-9E15-E09512BD4D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F17E92B-90ED-4BD5-9E15-E09512BD4D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
