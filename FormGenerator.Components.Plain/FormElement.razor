@@ -1,0 +1,16 @@
+﻿@namespace FormGenerator.Form
+
+@typeparam TFormElement
+@inherits FormElementComponent<TFormElement>
+
+<div>
+    @if (!string.IsNullOrWhiteSpace(Label))
+    {
+        <label class="form-control-label" for="@Id">@Label</label>
+    }
+
+    @CreateComponent()
+</div>
+
+<FormGenerator.Core.Validation.FgValidationMessage For="@ValueExpression">
+</FormGenerator.Core.Validation.FgValidationMessage>

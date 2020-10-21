@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemo", "BlazorDemo\BlazorDemo.csproj", "{3DAF24EE-CAD3-41B4-A76B-05A3145BE2E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator.Core", "FormGeneratorCore\FormGenerator.Core.csproj", "{0EF8F403-8ABF-4D96-9311-7E5639EB0547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator.Components.Plain", "FormGenerator.Components.Plain\FormGenerator.Components.Plain.csproj", "{3B69F154-84C4-475F-9045-A8EB3658B3A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormGenerator.Components.Bootstrap", "FormGenerator.Components.Bootstrap\FormGenerator.Components.Bootstrap.csproj", "{CBC303ED-CF13-4385-AA1A-41661ED026FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAF24EE-CAD3-41B4-A76B-05A3145BE2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAF24EE-CAD3-41B4-A76B-05A3145BE2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAF24EE-CAD3-41B4-A76B-05A3145BE2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAF24EE-CAD3-41B4-A76B-05A3145BE2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF8F403-8ABF-4D96-9311-7E5639EB0547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF8F403-8ABF-4D96-9311-7E5639EB0547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF8F403-8ABF-4D96-9311-7E5639EB0547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF8F403-8ABF-4D96-9311-7E5639EB0547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B69F154-84C4-475F-9045-A8EB3658B3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B69F154-84C4-475F-9045-A8EB3658B3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B69F154-84C4-475F-9045-A8EB3658B3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B69F154-84C4-475F-9045-A8EB3658B3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC303ED-CF13-4385-AA1A-41661ED026FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

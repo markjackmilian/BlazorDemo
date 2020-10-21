@@ -1,0 +1,17 @@
+﻿@namespace FormGenerator.Form
+
+@typeparam TFormElement
+@inherits BootstrapFormElementComponent<TFormElement>
+
+<div class="@CssClass">
+    @if (!string.IsNullOrWhiteSpace(Label))
+    {
+        <label for="@Id">@Label</label>
+    }
+    <div class="d-flex justify-content-center flex-column">
+        @CreateComponent()
+
+        <FormGenerator.Core.Validation.FgValidationMessage For="@ValueExpression" Class="form-text">
+        </FormGenerator.Core.Validation.FgValidationMessage>
+    </div>
+</div>

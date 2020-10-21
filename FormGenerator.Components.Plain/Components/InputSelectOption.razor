@@ -1,0 +1,13 @@
+﻿@namespace FormGenerator.Form.Components.Plain
+
+@typeparam TKey
+
+<option value="@Key">@Value</option>
+
+@code {
+    [Parameter]
+    public string Value { get; set; }
+
+    [Parameter]
+    public TKey Key { get; set; }
+}

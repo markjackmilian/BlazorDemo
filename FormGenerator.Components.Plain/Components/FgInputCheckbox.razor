@@ -1,0 +1,8 @@
+﻿@namespace FormGenerator.Form.Components.Plain
+
+@inherits FormGenerator.Form.Components.Plain.FgInputCheckboxComponent
+
+<div class="@ContainerCss">
+    <input type="checkbox" class="@CssClass" id="@Id" @bind="@CurrentValue">
+    <label class="@LabelCss" for="@Id">@Label</label>
+</div>

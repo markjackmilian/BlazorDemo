@@ -1,0 +1,12 @@
+﻿@namespace FormGenerator.Form.Components.Bootstrap
+
+@using Microsoft.AspNetCore.Components.Forms
+@using FormGenerator.Core.Validation
+
+@inherits BootstrapInputTextComponent
+
+<InputText Value="@Value"
+           ValueChanged="@ValueChanged"
+           ValueExpression="@ValueExpression"
+           class="@ValidationHelper.FixClassNames(CssClass)">
+</InputText>

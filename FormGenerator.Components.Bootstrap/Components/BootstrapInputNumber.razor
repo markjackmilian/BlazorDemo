@@ -1,0 +1,14 @@
+﻿@namespace FormGenerator.Form.Components.Bootstrap
+
+@typeparam TValue
+
+@using Microsoft.AspNetCore.Components.Forms
+@using FormGenerator.Core.Validation
+
+@inherits FormGenerator.Form.Components.Bootstrap.BootstrapInputNumberComponent<TValue>
+
+<InputNumber Value="@Value"
+             ValueChanged="@ValueChanged"
+             ValueExpression="@ValueExpression"
+             class="@ValidationHelper.FixClassNames(CssClass)">
+</InputNumber>
