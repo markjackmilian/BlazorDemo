@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Dynamic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using Microsoft.AspNetCore.Components;
@@ -44,7 +45,7 @@ namespace FormGenerator.Core
             }
             else
             {
-                foreach (var propertyInfo in modelType.GetProperties())
+                foreach (var propertyInfo in modelType.GetProperties().Where(w=> w.GetCustomAttribute<VxIgnoreAttribute>() == null))
                 {
                     MethodInfo method = typeof(RenderFormElements).GetMethod(
                         nameof(RenderFormElements.CreateFormElementReferencePoco),
